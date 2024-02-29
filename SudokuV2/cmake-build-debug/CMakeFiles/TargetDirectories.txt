@@ -1,0 +1,3 @@
+/Users/michallejza/CLionProjects/SudokuV2/cmake-build-debug/CMakeFiles/SudokuV2.dir
+/Users/michallejza/CLionProjects/SudokuV2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/michallejza/CLionProjects/SudokuV2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
