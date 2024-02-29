@@ -121,12 +121,7 @@ void Board::printSudokuBoard()
     for (uint16_t i = 0; i < N; i++)
     {
         for (uint16_t j = 0; j < N; j++)
-        {
-            if (fields.at(i).at(j) -> getValue() == 0)
-                std::cout << this -> fields.at(i).at(j) -> getValue() << "  ";
-            else
-                std::cout <<  "\x1B[32m" << this -> fields.at(i).at(j) -> getValue() << "  " << "\x1B[0m";
-        }
+            std::cout << this -> fields.at(i).at(j) -> getValue() << "  ";
         std::cout << std::endl;
     }
     std::cout << std::endl;
