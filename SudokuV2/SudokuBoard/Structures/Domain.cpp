@@ -97,9 +97,5 @@ void Domain::print() const
         std::cout << std::endl;
     }
     else
-    {
-        std::cout << "\x1B[32m";
         std::cout << this -> value << std::endl;
-        std::cout << "\x1B[0m";
-    }
 }
